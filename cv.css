@@ -1,0 +1,65 @@
+.add{
+    background-color:rgb(138, 14, 14);
+    padding: 30px 0px 30px 5px;
+    color: whitesmoke;    
+}
+
+
+.container{
+    background-color: whitesmoke;
+    width: 55%;
+    padding: 30px;
+    border: 2px solid gray;
+
+}
+.container2{
+    display: flex;
+    position: relative;
+    gap: 40px;
+}
+.container2::before{
+    content: "";
+    position: absolute;
+    height:100%;
+    right: 48%;
+    top: 20px;
+    border: 1px solid rgb(0, 0, 0 ,0.3);
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.email , .phone ,.location{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+i{
+    margin-right: 5px;
+    font-size: 19px;
+}
+table{
+    border: 1px solid rgba(199, 194, 194, 0.864);
+    border-collapse: collapse;
+    width: 90%;
+}
+table td ,th{
+    padding: 7px;
+    text-align: center;
+}
+
+.left-side{
+    width: 90%;
+}
+
+li{
+     margin: 10px 0px;
+}
+
